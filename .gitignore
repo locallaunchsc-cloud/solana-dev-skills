@@ -1,0 +1,58 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+target/
+.next/
+
+# Rust / Cargo
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Anchor
+.anchor/
+test-ledger/
+
+# Solana
+*.so
+test-ledger/
+.solana-keygen-cache/
+
+# Secrets / wallets
+*.key
+*.pem
+id.json
+keypair.json
+.demo-keys/
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
